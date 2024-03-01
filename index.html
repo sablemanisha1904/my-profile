@@ -8,6 +8,15 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="">
+
+    <!-- Google Font Family -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	
     <style>
 
       header{
@@ -15,13 +24,25 @@
         padding: 20px;
 
         background-color: rgb(216, 244, 245);
+        
+        font-family: "Roboto", sans-serif;
 
       }
       .navigation{
         margin-right: 20px;
+
+        font-family: "Roboto", sans-serif;
+
+        text-decoration: none;
+      }
+      .header{
+
+        font-family: "Roboto", sans-serif;
       }
       .list-info{
         padding-bottom: 20px;
+
+        font-family: "Poppins", sans-serif;
       }
 
       #resume{
@@ -29,6 +50,8 @@
         color: orange;
 
         font-weight: bolder;
+        
+        font-family: "Roboto", sans-serif;
 
       }
 
@@ -47,7 +70,12 @@
         margin-left: 10px;
 
       }
-      .table-info{
+      table,th,tr,td{
+        border: 2px solid rgb(234, 193, 117);
+        border-collapse: collapse;
+        font-family: "Poppins", sans-serif;
+      }
+      th,td{
         padding: 20px;
       }
       #resume-text{
@@ -55,11 +83,21 @@
         margin-left: 10px;
 
       }
+      #projects{
+        font-family: "Poppins", sans-serif;
+      }
       .project{
         padding-left: 20px;
       }
       .footer-info{
         padding-right: 20px;
+      }
+      #techTable{
+        width: 50%;
+      }
+      #footer{
+
+        font-family: "Poppins", sans-serif;
       }
       
     </style>
@@ -126,7 +164,7 @@
             Troubleshooting the code.
           </li>
           <li class="list-info">Knowledge of NodeJS.</li>
-          <li>Ability to work with people at all level in the program.</li>
+          <li class="list-info">Ability to work with people at all level in the program.</li>
         </ul>
       </section>
     </section>
@@ -137,34 +175,34 @@
 
     <section id="techStack">
       <h2 class="header">My Technology stack is</h2>
-      <table border="1">
+      <table id="techTable">
         <thead>
           <tr>
-            <th class="table-info" >Sr. No</th>
-            <th class="table-info" >Technology Stack</th>
-            <th class="table-info" >Rating</th>
+            <th>Sr. No</th>
+            <th>Technology Stack</th>
+            <th>Rating</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td class="table-info"  >1</td>
-            <td class="table-info" >HTML</td>
-            <td class="table-info" >4</td>
+            <td>1</td>
+            <td>HTML</td>
+            <td>4</td>
           </tr>
           <tr>
-            <td class="table-info" >2</td>
-            <td class="table-info" >CSS</td>
-            <td class="table-info" >4</td>
+            <td>2</td>
+            <td>CSS</td>
+            <td>4</td>
           </tr>
           <tr>
-            <td class="table-info" >3</td>
-            <td class="table-info" >JavaScript</td>
-            <td class="table-info" >4</td>
+            <td>3</td>
+            <td>JavaScript</td>
+            <td>4</td>
           </tr>
           <tr>
-            <td class="table-info" >4</td>
-            <td class="table-info" >Angular</td>
-            <td class="table-info" >3</td>
+            <td>4</td>
+            <td>Angular</td>
+            <td>3</td>
           </tr>
         </tbody>
       </table>
@@ -212,38 +250,38 @@
     <!-- Education Section -->
 
     <section id="education">
-      <h2>MY Education Details</h2>
-      <table border="1">
+      <h2 class="header">My Education Details</h2>
+      <table>
         <thead>
           <tr>
-            <th class="table-info">Qualification</th>
-            <th class="table-info">School/College</th>
-            <th class="table-info">Board/University</th>
-            <th class="table-info">Year</th>
-            <th class="table-info">Percentage</th>
+            <th>Qualification</th>
+            <th>School/College</th>
+            <th>Board/University</th>
+            <th>Year</th>
+            <th>Percentage</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td class="table-info">BE</td>
-            <td class="table-info">CSMIT,Shedung, Panvel</td>
-            <td class="table-info">Mumbai</td>
-            <td class="table-info">2019</td>
-            <td class="table-info">61.27%</td>
+            <td>BE</td>
+            <td>CSMIT,Shedung, Panvel</td>
+            <td>Mumbai</td>
+            <td>2019</td>
+            <td>61.27%</td>
           </tr>
           <tr>
-            <td class="table-info">Diploma</td>
-            <td class="table-info">VJIT,Matunga,Mumbai</td>
-            <td class="table-info">Autonoumous</td>
-            <td class="table-info">2016</td>
-            <td class="table-info">72.29%</td>
+            <td>Diploma</td>
+            <td>VJIT,Matunga,Mumbai</td>
+            <td>Autonoumous</td>
+            <td>2016</td>
+            <td>72.29%</td>
           </tr>
           <tr>
-            <td class="table-info">SSC</td>
-            <td class="table-info">DVS High School,Koparkhairane,Navi Mumbai</td>
-            <td class="table-info">State Board</td>
-            <td class="table-info">2013</td>
-            <td class="table-info">90.73%</td>
+            <td>SSC</td>
+            <td>DVS High School,Koparkhairane,Navi Mumbai</td>
+            <td>State Board</td>
+            <td>2013</td>
+            <td>90.73%</td>
           </tr>
         </tbody>
 
@@ -263,7 +301,7 @@
       <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a>
 
       <!-- copy write section -->
-      <section>
+      <section id="footer">
         <!-- Copy write section -->
 
         Copyright &copy;2024 Codemind Technology Video Communications, Inc. All
