@@ -44,6 +44,17 @@
 
         font-family: "Poppins", sans-serif;
       }
+      #listSummary li{
+
+      list-style-type: none;
+
+      }
+
+      #listSummary li::marker{
+
+      content: "✍️";
+
+      }
 
       #resume{
 
@@ -99,6 +110,14 @@
 
         font-family: "Poppins", sans-serif;
       }
+      .roles{
+        list-style-type: lower-alpha;
+      }
+      #projectDesc::selection{
+
+      background-color: rgb(241, 193, 104);
+
+    }
       
     </style>
 
@@ -139,7 +158,7 @@
       <!-- Home Section -->
       <h2 class="header">Professional Summary</h2>
       <section>
-        <ul>
+        <ul id="listSummary">
           <li class="list-info" style="color: cadetblue;">
             Having 1 years of experience in developing single page Web
             Applications using
@@ -223,7 +242,7 @@
       <p>
         <b>Team Size:</b>06<span class="project"><b>Duration:</b>2021-1<sup>1st</sup>-<i>july till <u>present</u></i></span>
       </p>
-      <p>
+      <p id="projectDesc">
         <b>Project Description:</b>This Project is mainly used for student
         management in colleges, where it helps to manage student record like<br />
         student registration, student update, and to see all the list of
@@ -231,7 +250,7 @@
       </p>
 
       <b>Roles and Responsibilites :</b>
-      <ul>
+      <ol class="roles">
         <li class="list-info">Designed and Implemented the user interface using HTML5 and CSS3</li>
         <li class="list-info">Work closely with backend developers for code integration</li>
         <li class="list-info">Identifying and troubleshooting issues in front end codebase</li>
@@ -242,7 +261,7 @@
           stand up calls,sprint retrospective meetings
         </li>
         <li class="list-info">Involved in fixing technical issues in production Environment</li>
-      </ul>
+      </ol>
     </section>
 
     <hr />
