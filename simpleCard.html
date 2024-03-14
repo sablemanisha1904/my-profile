@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simpleCard</title>
+    <!-- Google Font Family -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	
+    <style>
+        #container{
+            width: 550px;
+            height: 250px;
+            margin: 20px auto;
+            border: 2px rgb(251, 247, 247) solid;
+            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            background-color: rgb(247, 249, 242);
+            border-radius: 10px;
+        }
+        #image1{
+            height: 200px;
+            width: 200px;
+            display:inline-block;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        #list{
+            height: 200px;
+            width: 300px;
+            display:inline-block;
+            margin-left: 20px;
+            font-family: "Roboto", sans-serif;
+            
+        }
+        #list h2{
+            letter-spacing: 3px;
+        }
+        #list li::marker{
+            content: "✍️";
+        }
+        #container2{
+            width: 600px;
+            height: 250px;
+            margin: 20px auto;
+            border: 2px rgb(130, 127, 127) solid;
+            border-radius: 10px;
+            padding-left: 40px;
+            background-color: black;
+            box-shadow: 10px 10px 5px 0px rgba(16, 16, 16, 0.75);
+            -webkit-box-shadow: 10px 10px 5px 0px rgba(5, 3, 3, 0.75);
+            -moz-box-shadow: 10px 10px 5px 0px rgba(8, 7, 7, 0.75);
+        }
+        #header{
+            margin-top: 20px;
+            /* display: inline-block; */
+        }
+
+        #header h2{
+            color: deepskyblue;
+            margin: 2px;
+            margin-left: 30px;
+            font-family: "Roboto", sans-serif;
+            margin-bottom: 30px;
+        }
+        #list2{
+            
+            color: whitesmoke;
+            font-family: "Roboto", sans-serif;
+            list-style: none;
+            display: inline-block;
+            
+        }
+        #list2 li{
+            margin-right: 50px;
+        }
+        #image2{
+            height: 50px;
+            width: 50px;
+            display:inline-block;
+            margin-left: 150px;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+    <img id="image1" src="assets/web-developer.jpg" alt="Developer photo">
+    <!-- <h2>Compare Text Online</h2> -->
+    <section id="list">
+        <h2>Compare Text Online</h2>
+        
+        <ul>
+            <li>Compare Text Online Free</li>
+            <li>Supports image file Comparison</li>
+            <li>Ignore order and name Spacing</li>
+            <li>Side by side Diff View</li>
+            <li>Get results in tabuler format for quick reference</li>
+            <li>TEXT Diff tool</li>
+            <li>REST API</li>
+         </ul>
+    </section>
+    </section> 
+    <hr>
+
+    <section id="container2">
+        <section id="header">
+        <h2>2 Stocks <br>Recommendation<br>Weekly</h2>
+        </section>
+        
+
+    <ul id="list2">
+        <li>Midcap Stocks Gaining</li>
+        <li>Momentum after 30-40%</li>
+        <li>from 52 week High</li>
+    </ul>
+
+    <img id="image2" src="assets/arrow.png" alt="Arrow Button">
+
+
+    </section>
+    
+
+</body>
+</html>
